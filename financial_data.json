@@ -1,0 +1,259 @@
+{
+    "user_profiles": [
+      {
+        "user_id": 1,
+        "personal_info": {
+          "date_of_birth": "1990-05-15",
+          "gender": "male",
+          "marital_status": "married",
+          "dependents": 2,
+          "occupation": "software_engineer",
+          "education_level": "masters",
+          "location": {
+            "city": "Bangalore",
+            "country": "India"
+          }
+        },
+        "income": {
+          "monthly_salary": 55000,
+          "additional_income": 5000,
+          "annual_bonus": 100000
+        },
+        "expenses": {
+          "monthly_fixed": {
+            "rent": 20000,
+            "utilities": 5000,
+            "insurance": 3000,
+            "loan_payments": 7000
+          },
+          "monthly_variable": {
+            "groceries": 8000,
+            "dining_out": 4000,
+            "transportation": 3000,
+            "entertainment": 5000
+          }
+        },
+        "savings": {
+          "emergency_fund": 100000,
+          "retirement_savings": 500000
+        },
+        "investments": {
+          "stocks": {
+            "amount": 50000,
+            "risk_level": "moderate"
+          },
+          "mutual_funds": {
+            "amount": 30000,
+            "fund_types": [
+              "equity",
+              "debt"
+            ]
+          },
+          "fixed_deposits": {
+            "amount": 20000,
+            "maturity_period": "2_years"
+          },
+          "real_estate": {
+            "primary_residence": {
+              "value": 5000000,
+              "mortgage_remaining": 2000000
+            }
+          }
+        },
+        "liabilities": [
+          {
+            "type": "home_loan",
+            "principal": 2000000,
+            "interest_rate": 7.5,
+            "tenure_remaining": "15_years"
+          },
+          {
+            "type": "personal_loan",
+            "principal": 100000,
+            "interest_rate": 12,
+            "tenure_remaining": "2_years"
+          },
+          {
+            "type": "credit_card",
+            "total_limit": 200000,
+            "current_utilization": 15000
+          }
+        ],
+        "assets": [
+          {
+            "type": "vehicle",
+            "category": "car",
+            "value": 800000,
+            "loan_remaining": 300000
+          },
+          {
+            "type": "electronics",
+            "category": "general",
+            "value": 150000,
+            "loan_remaining": 0
+          }
+        ],
+        "insurance_coverage": {
+          "life": 5000000,
+          "health": 1000000,
+          "vehicle": 600000
+        },
+        "financial_goals": [
+          {
+            "type": "home_purchase",
+            "target_amount": 8000000,
+            "target_date": "2028-12-31"
+          },
+          {
+            "type": "retirement_planning",
+            "target_amount": 20000000,
+            "target_date": "2045-12-31"
+          },
+          {
+            "type": "child_education",
+            "target_amount": 5000000,
+            "target_date": "2035-12-31"
+          }
+        ],
+        "credit_profile": {
+          "credit_score": 750,
+          "credit_history_years": 8,
+          "recent_credit_inquiries": 1
+        },
+        "risk_profile": {
+          "risk_appetite": "moderate",
+          "investment_horizon": "long_term",
+          "loss_tolerance": "medium"
+        },
+        "tax_information": {
+          "tax_regime": "new",
+          "tax_saving_investments": 150000,
+          "tax_bracket": "30_percent"
+        }
+      },
+      {
+        "user_id": 2,
+        "personal_info": {
+          "date_of_birth": "1995-08-22",
+          "gender": "female",
+          "marital_status": "single",
+          "dependents": 0,
+          "occupation": "business_owner",
+          "education_level": "bachelors",
+          "location": {
+            "city": "Mumbai",
+            "country": "India"
+          }
+        },
+        "income": {
+          "monthly_salary": 85000,
+          "additional_income": 25000,
+          "annual_bonus": 0
+        },
+        "expenses": {
+          "monthly_fixed": {
+            "rent": 35000,
+            "utilities": 7000,
+            "insurance": 4000,
+            "loan_payments": 0
+          },
+          "monthly_variable": {
+            "groceries": 10000,
+            "dining_out": 8000,
+            "transportation": 6000,
+            "entertainment": 10000
+          }
+        },
+        "savings": {
+          "emergency_fund": 250000,
+          "retirement_savings": 300000
+        },
+        "investments": {
+          "stocks": {
+            "amount": 200000,
+            "risk_level": "aggressive"
+          },
+          "mutual_funds": {
+            "amount": 150000,
+            "fund_types": [
+              "equity",
+              "international",
+              "small_cap"
+            ]
+          },
+          "crypto": {
+            "amount": 50000,
+            "portfolio": [
+              "bitcoin",
+              "ethereum"
+            ]
+          },
+          "real_estate": null
+        },
+        "liabilities": [
+          {
+            "type": "credit_card",
+            "total_limit": 500000,
+            "current_utilization": 25000
+          }
+        ],
+        "assets": [
+          {
+            "type": "vehicle",
+            "category": "motorcycle",
+            "value": 200000,
+            "loan_remaining": 0
+          },
+          {
+            "type": "electronics",
+            "category": "general",
+            "value": 250000,
+            "loan_remaining": 0
+          },
+          {
+            "type": "business",
+            "category": "online_retail",
+            "value": 1500000,
+            "loan_remaining": 0
+          }
+        ],
+        "insurance_coverage": {
+          "life": 3000000,
+          "health": 1500000,
+          "business": 2000000
+        },
+        "financial_goals": [
+          {
+            "type": "business_expansion",
+            "target_amount": 5000000,
+            "target_date": "2027-12-31"
+          },
+          {
+            "type": "retirement_planning",
+            "target_amount": 25000000,
+            "target_date": "2050-12-31"
+          },
+          {
+            "type": "world_travel",
+            "target_amount": 2000000,
+            "target_date": "2026-12-31"
+          }
+        ],
+        "credit_profile": {
+          "credit_score": 820,
+          "credit_history_years": 5,
+          "recent_credit_inquiries": 0
+        },
+        "risk_profile": {
+          "risk_appetite": "aggressive",
+          "investment_horizon": "long_term",
+          "loss_tolerance": "high"
+        },
+        "tax_information": {
+          "tax_regime": "old",
+          "tax_saving_investments": 200000,
+          "tax_bracket": "30_percent"
+        }
+      }
+    ]
+  }
