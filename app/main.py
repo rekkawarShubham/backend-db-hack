@@ -6,11 +6,19 @@ from dotenv import load_dotenv
 import json
 from openai import OpenAI
 import os
+from fastapi.middleware.cors import CORSMiddleware
+
 load_dotenv()  # Load the .env file
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # use ["http://localhost:3000"] for restricted access
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/user")
 async def create_or_update_user(user: User, request: Request):
